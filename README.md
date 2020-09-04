@@ -66,6 +66,7 @@ sumStepsByDate<- dFact %>% group_by(date) %>%
                             summarize(sumSteps = sum(steps))
 summary(sumStepsByDate)
 ```
+![](https://github.com/JeanCarloVen/RPA/blob/master/images/02.png)
 
 We observe that the average of daily steps is 10,765 steps, with a maximum of 21,194 and a minimum of 41.
 
@@ -121,6 +122,7 @@ plotStepInterval <- ggplot(meanFiveMinutes, aes(x=interval, y=meanSteps)) +
                         
 plotStepInterval
 ```
+![](https://github.com/JeanCarloVen/RPA/blob/master/images/03.png)
 
 ### b. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 ```{r}
@@ -173,5 +175,5 @@ plotStepDay <- ggplot(imputeDataCurrent, aes(x=dailyStep)) +
     labs(title = "Histogram of Number of Steps taken each day (impute)", y="Frecuency", x="Daily Steps")
 plotStepDay
 ```
-
+![](https://github.com/JeanCarloVen/RPA/blob/master/images/04.png)
 The mean and median total number of steps taken per day (after impute) is 10766.

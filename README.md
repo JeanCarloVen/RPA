@@ -66,7 +66,7 @@ sumStepsByDate<- dFact %>% group_by(date) %>%
                             summarize(sumSteps = sum(steps))
 summary(sumStepsByDate)
 ```
-![](https://github.com/JeanCarloVen/RPA/blob/master/images/02.png)
+![](https://github.com/JeanCarloVen/RPA/blob/master/images/01.png)
 
 We observe that the average of daily steps is 10,765 steps, with a maximum of 21,194 and a minimum of 41.
 
@@ -81,7 +81,7 @@ sumStepsByDate %>%
 
 We observe a higher concentration between 25 and 75 percent, that is, above 8,000 steps per day.
 
-![](https://github.com/JeanCarloVen/RPA/blob/master/images/01.png)
+![](https://github.com/JeanCarloVen/RPA/blob/master/images/02.png)
 
 ## II. Calculate and report the mean and median total number of steps taken per day?
 

@@ -1,5 +1,5 @@
 # Introduction
-![](https://github.com/JeanCarloVen/RPA/blob/master/images/01.png)
+
 
 It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. These type of devices are part of the “quantified self” movement – a group of enthusiasts who take measurements about  dsd themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.
 
@@ -79,6 +79,8 @@ sumStepsByDate %>%
 ```
 
 We observe a higher concentration between 25 and 75 percent, that is, above 8,000 steps per day.
+
+![](https://github.com/JeanCarloVen/RPA/blob/master/images/01.png)
 
 ## II. Calculate and report the mean and median total number of steps taken per day?
 
